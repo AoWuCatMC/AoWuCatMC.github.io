@@ -1,0 +1,382 @@
+﻿<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="120" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>咆哮猫のMC</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon"/>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="css/ed7759415e1d4513904849f1ca09a97c.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/jarallax.css" />
+    <link rel="stylesheet" href="css/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="css/nouislider.min.css" />
+    <link rel="stylesheet" href="css/nouislider.pips.css" />
+    <link rel="stylesheet" href="css/odometer.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tiny-slider.min.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/twentytwenty.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
+    <link rel="stylesheet" href="css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="css/vegas.min.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/timepicker.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="css/moniz.css" />
+    <link rel="stylesheet" href="css/moniz-responsive.css" />
+</head>
+
+<body>
+    <script type="text/javascript">
+        console.log("HI!\nQuite wondering what made you see this message...\nbut anyway, HELLO to whoever there is!\nYEET~\n")
+        console.log("Oh, by the way, this page used the Moniz template")
+    </script>
+    <div class="preloader">
+        <img class="preloader__image" width="60" src="images/logo.png" alt="" />
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header clearfix">
+            <nav class="main-menu clearfix">
+                <div class="main-menu-wrapper clearfix">
+                    <div class="main-menu-wrapper__left clearfix">
+                        <div class="main-menu-wrapper__logo">
+                            <a href="#" class="mobile-nav__imgtog"><img src="images/logo2.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="main-menu-wrapper__main-menu">
+                        <a href="#" class="mobile-nav__toggler">
+                            <span></span>
+                        </a>
+                        <ul class="main-menu__list">
+                            <li><a href="#about">关于</a></li>
+                            <li><a href="#events">当前活动</a></li>
+                            <li><a href="#history">往期活动</a></li>
+                            <li class="dropdown">
+                                <a href="#join">加入</a>
+                                <ul>
+                                    <li><a href="images/wechat-group.jpg">微信</a></li>
+                                    <li><a href="https://jq.qq.com/?_wv=1027&k=7O9vMKe5">QQ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Banner One Start -->
+        <section class="main-slider" id="head">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+        "effect": "fade",
+         "pagination": {
+            "el": "#main-slider-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+        "navigation": {
+            "nextEl": "#main-slider__swiper-button-next",
+            "prevEl": "#main-slider__swiper-button-prev"
+        },
+        "autoplay": {
+            "delay": 5000
+        }}'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(images/header-bg.jpg);">
+                        </div>
+
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="main-slider__content">
+                                        <p>欢迎来到</p>
+                                        <h3>咆哮猫</h3>
+                                        <h4>の</h4>
+                                        <h3>MC</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Banner One End-->
+        
+        <!--Counter One Start-->
+        <section class="counters-one" id="counts">
+            <div class="container">
+                <ul class="counters-one__box list-unstyled">
+                    <li class="counter-one__single wow fadeInUp" id="runtime" data-wow-delay="300ms">
+                        <div class="counter-one__icon">
+                            <span class="icon-coffee"></span>
+                        </div>
+                        <script type="text/javascript">
+                            (function (){
+                                var t=new Date();
+                                var a=t.getTime()-1583020800000
+                                var b=a/86400000;
+                                var c=parseInt(b+0.5)
+                                var l;
+                                l=document.createElement('h3');
+                                l.setAttribute("class","odometer");
+                                l.setAttribute("data-count",c);
+                                l.innerHTML="00";
+                                var o=document.getElementById("runtime");
+                                o.appendChild(l)
+                            }).call(this);
+                        </script>
+                        <p class="counter-one__text">运营天数</p>
+                    </li>
+                    <li class="counter-one__single wow fadeInUp" data-wow-delay="100ms">
+                        <div class="counter-one__icon">
+                            <span class="icon-recommend"></span>
+                        </div>
+                        <h3 class="odometer" data-count="3">00</h3>
+                        <p class="counter-one__text">活动次数</p>
+                    </li>
+                    <li class="counter-one__single wow fadeInUp" data-wow-delay="200ms">
+                        <div class="counter-one__icon">
+                            <span class="icon-recruit"></span>
+                        </div>
+                        <h3 class="odometer" data-count="22">00</h3>
+                        <p class="counter-one__text">成员总数</p>
+                    </li>
+                    <li class="counter-one__single wow fadeInUp" data-wow-delay="400ms">
+                        <div class="counter-one__icon">
+                            <span class="icon-customer-review"></span>
+                        </div>
+                        <h4>核邪铀碍</h4>
+                        <p class="counter-one__text">镇内气氛</p>
+                    </li>
+                    <li class="counter-one__shape wow fadeInUp" data-wow-delay="500ms"></li>
+                </ul>
+            </div>
+        </section>
+        <!--Counter One End-->
+
+        <!--We Change Start-->
+        <section class="we-change" id="about">
+            <div class="container">
+                <div class="we-change__left-faqs">
+                    <div class="section-title text-left">
+                        <h2 class="section-title__title">关于我们</h2>
+                    </div>
+                    <div class="we-change__faqs">
+                        <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>咆哮猫のMC是什么</h4>
+                                </div>
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <p>
+                                            温暖、自由、不时沙雕的MC社团<br>
+                                            始于一个灵感，一份激动，一些热情<br>
+                                            你可以在这里，做想做的，说想说的<br>
+                                            也许相隔千里，却可以用这种方式在一起<br>
+                                            这里有奇奇怪怪的，不正经的，很欢乐的<br>
+                                            也有些反政治的，什么都会的，emo时互相安慰的<br>
+                                            愿所有孤独的海盗能找到那份归属感，乘上海盗船<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accrodion">
+                                <div class="accrodion-title">
+                                    <h4>自由小镇的故事&nbsp;&nbsp;&nbsp;<span style="color:#9696AA;font-size:12px;">稍长，慎点</span></h4>
+                                </div>
+                                <div class="accrodion-content">
+                                    <div class="inner">
+                                        <p>
+                                            事情发生在2020年一个晴朗的下午，咆哮猫の基地正刮着强烈的沙雕风，但对于我 雪杉 这种常驻风中的猫猫早就习以为常了。但这次的风暴不太一样，它为我刮来了一份灵感……<br><br>
+                                            “在MC里建一个小镇吧！每个人都有自己的房子，我们在里面举办音乐会、PVP、建筑比赛，一起冒险！”<br><br>
+                                            这就是咆哮猫の小镇草率的开始。<br>
+                                            <br>
+                                            在那之后，加入了越来越多猫猫：<br><br>
+                                            安吉拉，我们的安皇，第一位伙伴，我当时非常崇拜她使用指令凭空生成两座空岛。而现在空岛成为了居民岛，还保存着当时一些猫猫的小房子。<br>
+                                            <br>
+                                            呵呵仔，小镇管理员之一，我们的建筑大使，神一般的存在！目前在国外读书，所以说大城堡打算什么时候继续呢（坏笑）<br>
+                                            <br>
+                                            淘米宝，小镇管理员之一，工具人兼憨批大使，<s>神一般的存在（除了说话和建筑）</s>废物！指令、红石、网站，都是交给他的啦～<br>
+                                            <br>
+                                            雪杉，就是我！小镇镇长，啥都<s>不</s>会，负责摆烂、睡觉、抱管理大腿（诶嘿//）<br>
+                                            <br>
+                                            除此之外还有很多猫猫，非常感谢你们的到来，每个我们一同共创欢乐的时光我都不会忘记。<br>
+                                            <br>
+                                            小镇的故事还会继续，屏幕前的新朋友，欢迎你加入我们的小镇，说不定下一行新增加的文字
+                                            说的就是你呢(∂ω∂)<br><br>
+                                            ———镇长雪杉
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--We Change End-->
+
+        <!--CTA One Start-->
+        <section class="cta-one" id="events">
+            <div class="cta-one-bg" style="background-image: url(images/VTV.jpg)"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="cta-one__inner">
+                            <h4 class="cta-one__tagline"></h4>
+                            <h2 class="cta-one__title">MC活动一览</h2>
+                            <a href="about.html" class="thm-btn cta-one__btn thm-btn--dark--light-hover"><span>看一看</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CTA One End-->
+
+        <!--Services One Start-->
+        <section class="services-one" id="history">
+            <div class="services-one-bg" style="background-image: url(images/services-one-bg.jpg)"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4" style="margin:0 auto">
+                        <div class="services-one__single wow fadeInUp" data-wow-delay="100ms">
+                            <div class="services-one__icon">
+                                <span class="icon-color-sample"></span>
+                            </div>
+                            <h3 class="services-one__title"><a href="about.html">往期活动</a></h3>
+                            <a href="about.html" class="service-one__arrow">
+                                <span class="icon-right-arrow"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Services One End-->
+
+        <!--We Change Start-->
+        <section class="we-change" style="background-color:#ffffff" id="join">
+            <div class="container">
+                <div class="we-change__left-faqs">
+                    <div class="section-title text-left">
+                        <h2 class="section-title__title">立刻加入</h2>
+                    </div>
+                    <div class="welcome-one__solutions" style="margin-bottom:0px;">
+                        <a class="welcome-one__solutions-single-w" href="images/wechat-group.jpg">
+                            <div class="welcome-one__solutions-text-box-w">
+                                <p>微信群</p>
+                            </div>
+                        </a>
+                        <a class="welcome-one__solutions-single-w" href="https://jq.qq.com/?_wv=1027&k=7O9vMKe5">
+                            <div class="welcome-one__solutions-text-box-w">
+                                <p>QQ群</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--We Change End-->
+
+        <!--Site Footer One Start-->
+        <footer class="site-footer">
+            <div class="site-footer__top">
+                <div class="site-footer-top-bg"
+                    style="background-image: url(images/site-footer-bg.jpg)"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="footer-widget__column footer-widget__about">
+                                <div class="footer-widget__about-logo">
+                                    <a href="#"><img src="images/logo2.png" alt=""></a>
+                                </div>
+                                <p class="footer-widget__about-text">咆哮猫のMC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-footer-bottom">
+                <div class="col-xl-12">
+                    <div class="site-footer-bottom__inner">
+                        <p class="site-footer-bottom__copy-right">版权&copy;所属 咆哮猫のMC<br>All rights reserved.<br>
+                            <a href="egg.html">这里没有彩蛋</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Site Footer One End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"></span>
+
+            <div class="logo-box">
+                <a href="#" aria-label="logo image"><img src="images/logo2.png" width="155"
+                        alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.appear.min.js"></script>
+    <script src="js/jquery.circle-progress.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/odometer.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/tiny-slider.min.js"></script>
+    <script src="js/wnumb.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/countdown.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/twentytwenty.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/timepicker.js"></script>
+
+    <!-- template js -->
+    <script src="js/moniz.js"></script>
+</body>
+
+</html>
